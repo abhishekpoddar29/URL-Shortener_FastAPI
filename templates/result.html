@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+
+    <h2>URL Shortener Result</h2>
+
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% else %}
+        <p>Your short URL:</p>
+        <a href="{{ short_url }}">{{ short_url }}</a>
+    {% endif %}
+
+    <br><br>
+    <a href="/">Go Back</a>
+
+</body>
+</html>
