@@ -1,31 +1,31 @@
-PROJECT : URL Shortener
+PROJECT : URL Shortener <br>
 
-AIM : 
-1. Accepts a long URL
-2. Generate a short URL
-3. Redirect users to the original URL when accessed
-4. Stores data in temp file
+AIM : <br>
+1. Accepts a long URL <br>
+2. Generate a short URL <br>
+3. Redirect users to the original URL when accessed <br>
+4. Stores data in temp file <br>
 
-Product requirement :
-1.Long URL are hard to share - generate short URL
-2.Clean link- easy to copy & paste
-3.Redirect easily and reliably
-4. User friendly
+Product requirement : <br>
+1.Long URL are hard to share - generate short URL <br>
+2.Clean link- easy to copy & paste <br>
+3.Redirect easily and reliably <br>
+4. User friendly <br>
 
-Functional requirement:
-1.Create short URL : 
-  a.Accepts long URL 
-  b.generate random 6-char unique short URL
-  c.Map long and short URL
-  d.Return short URL
-2.Redirect :
-  a.When user access the short URL
-  b.System scans for the URL in storage
-  c.Then redirect to original URL
-3.Validation :
-  a.If URL not found - return "Error" message
+Functional requirement: <br>
+1.Create short URL :  <br>
+  a.Accepts long URL <br>
+  b.generate random 6-char unique short URL<br>
+  c.Map long and short URL<br>
+  d.Return short URL<br>
+2.Redirect :<br>
+  a.When user access the short URL<br>
+  b.System scans for the URL in storage<br>
+  c.Then redirect to original URL<br>
+3.Validation :<br>
+  a.If URL not found - return "Error" message<br>
 
-Tech. Stack : Python + FastAPI + Textfile(storage)
+Tech. Stack : Python + FastAPI + Textfile(storage)<br>
 
 Architecture :
 
